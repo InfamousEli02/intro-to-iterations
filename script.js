@@ -29,3 +29,14 @@ while(sum.length < 7){
     sum += "#"
     console.log(sum);
 }
+
+//Doubling Numbers Until 100 exercise
+let num = 5;
+do {
+    num *= 2;
+    if (num > 100) {
+       break;
+    }else{
+       console.log(num);
+    }
+   } while (num < 100);
